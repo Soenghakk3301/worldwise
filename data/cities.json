@@ -37,16 +37,28 @@
       "id": 98443197
     },
     {
-      "cityName": "District 5",
-      "country": "United States of America (the)",
-      "emoji": "🇺🇸",
-      "date": "2023-08-22T01:41:57.902Z",
+      "cityName": "Sabinanigo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-08-22T02:47:35.717Z",
       "notes": "",
       "position": {
-        "lat": "31.616920324776693",
-        "lng": "-88.77152795873506"
+        "lat": "42.408639859020006",
+        "lng": "-0.17939379239346745"
       },
       "id": 98443198
+    },
+    {
+      "cityName": "Quintanar de la Sierra",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-08-22T02:47:47.908Z",
+      "notes": "",
+      "position": {
+        "lat": "42.01895073911697",
+        "lng": "-3.0351350630851552"
+      },
+      "id": 98443199
     }
   ]
 }

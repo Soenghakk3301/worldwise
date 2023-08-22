@@ -18,6 +18,7 @@ import { useUrlPosition } from '../hooks/useUrlPosition'
 
 function Map() {
   const { cities } = useCities()
+  const navigate = useNavigate()
   const [mapPosition, setMapPosition] = useState([40, 0])
 
   const {
@@ -37,8 +38,12 @@ function Map() {
 
   useEffect(
     function () {
-      if (geolocationPosition)
+      if (geolocationPosition) {
         setMapPosition([geolocationPosition.lat, geolocationPosition.lng])
+        navigate(
+          `form?lat=${geolocationPosition.lat}&lng=${geolocationPosition.lng}`
+        )
+      }
     },
     [geolocationPosition]
   )
